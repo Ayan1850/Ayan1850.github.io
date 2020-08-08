@@ -1,7 +1,74 @@
 <html>
     <head>
-        <link rel="stylesheet" href="WebTemplate/full.css">
+        <link rel="stylesheet" href="C:\Users\Ajay\Desktop\Rotaract\WebTemplate\full.css">
+        <link rel="stylesheet" href="C:\Users\Ajay\Desktop\Rotaract\Muskaan\assets\css\gallery.css">
         <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            background-color: rgb(203,213,224);
+            overflow-x: hidden; 
+            }
+
+        #event{
+            text-align: center;
+            width: 100%;
+            height: auto;
+        }
+
+        #event img{
+            width: 70%;
+            height: 90%;
+            margin-left: 15%;
+            border: 2px solid black;
+        }
+
+        #event_title{
+            text-align: left;
+            margin-left: 50px;
+            font-size: 36px;
+            font-weight: 500;
+            font-style: normal;
+            color: #F50057;
+            text-shadow: 1px 1px 5px black;
+            text-transform: uppercase;
+            font-family: "Arial Black", 'Gadget', 'sans-serif';
+            -webkit-text-stroke-width: 1px; 
+            -webkit-text-stroke-color: black;
+        }
+        
+
+        #event_info{
+            text-align: justify;
+            margin-left: 10%;
+            margin-right: 10%;
+            font-size: 20px;
+            padding-top: 10px;
+            font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+        }
+        
+        #gallery_title{
+            text-align: left;
+            margin-left: 50px;
+            font-size: 36px;
+            font-weight: 500;
+            font-style: normal;
+            color: #F50057;
+            text-shadow: 1px 1px 5px black;
+            text-transform: uppercase;
+            font-family: "Arial Black", 'Gadget', 'sans-serif';
+            -webkit-text-stroke-width: 1px; 
+            -webkit-text-stroke-color: black;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block
+            }
+        
         #load{
             width:100%;
             height:100%;
@@ -48,7 +115,56 @@
         
         <!----Insert Content here-->
         <br>
-    
+
+        <div id="event">
+            <div id="event_title">
+                <h5>Muskaan</h5>
+            </div>
+            <img src="muskaan.jpg">
+            <div id="event_info">
+                <p>
+                    "SMILE and GRATITUDE makes you happier''. The Rotaract Club of RVCE brings to you MUSKAAN, a heartfelt event where you are the 
+                    reason behind someone's smile! You can join the chain by following these simple steps:1. Give a small token of appreciation 
+                    to your driver, maid, sweeper, anyone who works to make your life easier. It could be anything, a box of sweets, a t-shirt, a 
+                    pair of shoes, utensils, books, etc. 2. Click a picture with them and upload it on your instagram account as a story and tag 
+                    @rotaractrvce with the following hashtags<strong> #thesmilegiveaway #DilKiMuskaan3</strong>. Nominate 3 other people whom you want to join 
+                    the smile giveaway chain and ask them to do the same.4. Follow the official page of Rotaract Club of RVCE @rotaractrvce where 
+                    the pictures will be uploaded on 20th of March 2020, International Day of Happiness.
+                </p>
+            </div>
+        </div>
+
+
+        <!--<div id="gallery">
+            <div id="gallery_title">
+                <h5>Gallery</h5>
+            </div>
+        </div>-->
+
+        <div id="gallery">
+        	
+        	<h5>Gallery</h5>
+        	
+        	<a class="arrow prev">Prev</a>
+        	<a class="arrow next">Next</a>
+        	
+        	<ul id="carousel">
+                <li><img src="assets/img/mk1.jpg"></li>
+                <li><img src="assets/img/mk10.jpg"></li>
+                <li><img src="assets/img/mk11.jpg"></li>
+                <!--<li><img src="assets/img/mk4.jpg"></li>
+                <li><img src="assets/img/mk5.jpg"></li>
+                <li><img src="assets/img/mk6.jpg"></li>
+                <li><img src="assets/img/mk7.jpg"></li>
+                <li><img src="assets/img/mk8.jpg"></li>
+                <li><img src="assets/img/mk9.jpg"></li>
+                <li><img src="assets/img/mk10.jpg"></li>-->
+
+        		
+        	</ul>
+        	
+        </div>
+
         <br>
         <!---End of Content-->
 
@@ -111,6 +227,8 @@
             </div>
         </footer>
 
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script src="C:\Users\Ajay\Desktop\Rotaract\Muskaan\assets\js\script.js"></script>
         <script>
             document.onreadystatechange = function () {
                 var state = document.readyState
