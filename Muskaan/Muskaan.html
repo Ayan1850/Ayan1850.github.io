@@ -251,6 +251,12 @@
 
     
         <script>
+		if (screen.width <= 800) {
+			document.body.blur();
+      			window.alert("Redirecting to mobile site");
+      			window.location = "mabout.html";
+		}
+		
             document.onreadystatechange = function () {
                 var state = document.readyState
                 if (state == 'interactive') {
