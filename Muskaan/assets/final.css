@@ -123,7 +123,7 @@
 	}
 	.photo-album .img5 {
 		bottom: 0;
-		right: -30;
+		right: -30px;
 		-webkit-transform: rotate(1deg);
 		-moz-transform: rotate(1deg);
 		transform: rotate(1deg);
@@ -165,7 +165,7 @@
 	}
 	.photo-album .img11 {
 		top: -40px;
-		right: -30;
+		right: -30px;
 		-webkit-transform: rotate(-8deg);
 		-moz-transform: rotate(-8deg);
 		transform: rotate(-8deg);
